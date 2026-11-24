@@ -1,0 +1,13 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfplan
+
+# Cluster credentials
+kubeconfig*.yaml
+
+# Logs
+*.log
